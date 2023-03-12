@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/s1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:weightSum="1" android:background="@drawable/playlayout">
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#FFFFFF" android:layout_width="wrap_content" android:text="In this game, the system automatically guesses a random four-digit number in which the first digit can be zero and all the digits are unique. You get 9 chances to find the correct number. Press OK button after you have entered the guess in the box. The number before 'A' indicates how many digits are correct and in their correct position (have the correct place value) and the number before 'B' indicates how many digits are correct but in the wrong position (have wrong place value). So get ready for this challenge!" android:id="@+id/textView1"></TextView>
+    <Button android:typeface="normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:id="@+id/button" android:layout_gravity="center"></Button>
+</LinearLayout>
+</ScrollView>
